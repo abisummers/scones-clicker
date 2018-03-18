@@ -12,7 +12,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <h1> Scone Clicker </h1>
 
         <button onClick={this.handleClick}>Click Here!</button>
